@@ -1,0 +1,6 @@
+{
+  "name": "AI Money Coach",
+  "description": "AI-powered financial decision coach to track expenses, understand spending, complete savings challenges, and get purchase advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

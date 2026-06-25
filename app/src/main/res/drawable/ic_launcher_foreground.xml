@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cast Shadow for Depth -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M34,26 C34,26 54,18 56,18 C58,18 78,26 78,26 C78,26 80,60 56,86 C32,60 34,26 34,26 Z"
+        android:strokeWidth="1" />
+
+    <!-- Shield Outer Frame -->
+    <path
+        android:pathData="M32,24 C32,24 54,16 54,16 C54,16 76,24 76,24 C76,24 78,58 54,84 C30,58 32,24 32,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="16"
+                android:endX="76"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FACC15" android:offset="0.0" />
+                <item android:color="#CA8A04" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield Inner Inlay (Dark Teal Core) -->
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M37,28 C37,28 54,21 54,21 C54,21 71,28 71,28 C71,28 73,54 54,77 C35,54 37,28 37,28 Z" />
+
+    <!-- Growth Peak Arrow inside core -->
+    <path
+        android:pathData="M54,32 L66,48 L59,48 L59,62 L49,62 L49,48 L42,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="32"
+                android:endX="66"
+                android:endY="62"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#A7F3D0" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
